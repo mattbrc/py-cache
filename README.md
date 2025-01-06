@@ -17,7 +17,7 @@ Python server to handle requests and cache.
 
 - FastAPI
 - [Caching Proxy](https://github.com/mattbrc/py-cache/blob/main/server/proxy_cache/main.py)
-  - Reference [roadmap.sh](https://roadmap.sh/projects/caching-server)
+  - Reference https://roadmap.sh/projects/caching-server
 
 ### Setup & Running
 
