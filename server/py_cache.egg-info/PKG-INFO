@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: py-cache
+Version: 0.1.0
+Requires-Python: >=3.7
+Requires-Dist: fastapi>=0.68.0
+Requires-Dist: uvicorn>=0.15.0
+Requires-Dist: pydantic>=1.8.0
