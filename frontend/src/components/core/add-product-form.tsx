@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -33,6 +34,7 @@ interface AddProductFormProps {
 }
 
 export default function AddProductForm({ onSuccess }: AddProductFormProps) {
+  const router = useRouter();
   const [loading, setLoading] = useState(false);
 
   const form = useForm<FormValues>({
@@ -67,6 +69,9 @@ export default function AddProductForm({ onSuccess }: AddProductFormProps) {
       form.reset();
       toast.success("Product added successfully");
       onSuccess?.();
+
+      // Refresh the page using Next.js router
+      router.refresh();
     } catch (err) {
       console.error(err);
       toast.error("Failed to add product");
