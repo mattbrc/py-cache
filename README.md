@@ -16,7 +16,7 @@ Next app to display cache status, recent products, and add products.
 Python server to handle requests and cache.
 
 - FastAPI
-- (Caching Proxy)[https://github.com/mattbrc/py-cache/blob/main/server/proxy_cache/main.py]
+- [Caching Proxy](https://github.com/mattbrc/py-cache/blob/main/server/proxy_cache/main.py)
 
 ### Setup & Running
 
