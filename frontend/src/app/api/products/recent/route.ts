@@ -4,7 +4,7 @@ const PROXY_URL = 'http://localhost:8001';
 
 export async function GET() {
   try {
-    const response = await fetch(`${PROXY_URL}/products/recent?limit=5`, {
+    const response = await fetch(`${PROXY_URL}/products`, {
       headers: {
         'Content-Type': 'application/json',
       },
