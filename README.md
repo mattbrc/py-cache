@@ -46,6 +46,13 @@ make run-api
 make run-proxy
 ```
 
+5. New terminal to run frontend:
+
+```bash
+cd frontend
+npm run dev
+```
+
 The system will be running with:
 
 - Frontend making requests to the proxy (port 8000)
