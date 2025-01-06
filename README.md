@@ -4,7 +4,7 @@ This is a simple cache system for Python. It is designed to be used in a webapp 
 
 ### Frontend
 
-Basic next app to display cache status, recent products, and add products.
+Next app to display cache status, recent products, and add products.
 
 - Next.js
 - TailwindCSS
@@ -13,7 +13,7 @@ Basic next app to display cache status, recent products, and add products.
 
 ### Server
 
-Basic python server to handle requests and cache.
+Python server to handle requests and cache.
 
 - FastAPI
 - Caching Proxy
